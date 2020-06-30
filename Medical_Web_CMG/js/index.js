@@ -30,14 +30,14 @@ $(function () {
         ],
         doctor_B: {
             outside: [
-                { name: '白博士', subject: '塑形专场', time: '1月7日来院', url: 'images/doctor-date1.png' },
-                { name: '王博士', subject: '美体专场', time: '1月8日来院', url: 'images/doctor-date1.png' },
-                { name: '李博士', subject: '焕肤专场', time: '1月9日来院', url: 'images/doctor-date1.png' }],
+                { name: '白博士', subject: '塑形专场', time: '1月7日来院', url: 'https://ae01.alicdn.com/kf/He63a7d56e072438f89b09eb141643edeo.jpg' },
+                { name: '王博士', subject: '美体专场', time: '1月8日来院', url: 'https://ae01.alicdn.com/kf/He63a7d56e072438f89b09eb141643edeo.jpg' },
+                { name: '李博士', subject: '焕肤专场', time: '1月9日来院', url: 'https://ae01.alicdn.com/kf/He63a7d56e072438f89b09eb141643edeo.jpg' }],
             inside: [
-                { name: '刘主任', subject: '整形科', time: '每周1、3、5日', url: 'images/doctor-date2.png' },
-                { name: '金主任', subject: '皮肤科', time: '每周2、4、6日', url: 'images/doctor-date2.png' },
-                { name: '海主任', subject: '无创科', time: '每周7日', url: 'images/doctor-date2.png' },
-                { name: '韩主任', subject: '口腔科', time: '7×24小时', url: 'images/doctor-date2.png' }]
+                { name: '刘主任', subject: '整形科', time: '每周1、3、5日', url: 'https://ae01.alicdn.com/kf/Hc78fff8f172b45eebd1aa3b1ebe6bdd3n.jpg' },
+                { name: '金主任', subject: '皮肤科', time: '每周2、4、6日', url: 'https://ae01.alicdn.com/kf/Hc78fff8f172b45eebd1aa3b1ebe6bdd3n.jpg' },
+                { name: '海主任', subject: '无创科', time: '每周7日', url: 'https://ae01.alicdn.com/kf/Hc78fff8f172b45eebd1aa3b1ebe6bdd3n.jpg' },
+                { name: '韩主任', subject: '口腔科', time: '7×24小时', url: 'https://ae01.alicdn.com/kf/Hc78fff8f172b45eebd1aa3b1ebe6bdd3n.jpg' }]
         },
         case: {
             url: ['javascript:;', 'javascript:;', 'javascript:;', 'javascript:;', 'javascript:;', 'javascript:;', 'javascript:;', 'javascript:;', 'javascript:;', 'javascript:;', 'javascript:;', 'javascript:;', 'javascript:;', 'javascript:;', 'javascript:;', 'javascript:;', 'javascript:;', 'javascript:;', 'javascript:;', 'javascript:;', 'javascript:;', 'javascript:;', 'javascript:;', 'javascript:;',],
@@ -45,12 +45,72 @@ $(function () {
         },
         picture: {
             brand: [
-                ['a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9'],
-                ['b1', 'b2', 'b3', 'b4', 'b5', 'b6', 'b7', 'b8', 'b9'],
-                ['c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9'],
-                ['d1', 'd2', 'd3', 'd4', 'd5', 'd6', 'd7', 'd8', 'd9'],
-                ['e1', 'e2', 'e3', 'e4', 'e5', 'e6', 'e7', 'e8', 'e9'],
-                ['f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7', 'f8', 'f9']
+                [
+                    'https://ae01.alicdn.com/kf/H3fd9a06593d54a8a817e7d43b20644874.jpg',
+                    'https://ae01.alicdn.com/kf/H884d8fbbabfd4559ac873c7cb15a1839Q.jpg',
+                    'https://ae01.alicdn.com/kf/H5e49fcd8a45349c9aa5c6443074c36356.jpg',
+                    'https://ae01.alicdn.com/kf/Hf7c68cb923364005b2f12a5637fe15492.jpg',
+                    'https://ae01.alicdn.com/kf/H8f62173478c04b80bc69ed8a81e9079dR.jpg',
+                    'https://ae01.alicdn.com/kf/H953dd3f9d9204a718ff3de61795fbf94s.jpg',
+                    'https://ae01.alicdn.com/kf/Habacf2c66a374d41823b3b70eb1c0b1e3.jpg',
+                    'https://ae01.alicdn.com/kf/Hd63c90a9a15b48008be55ce0723fef55f.jpg',
+                    'https://ae01.alicdn.com/kf/Ha76f345b49a348878b3f1e0ab6ae0d31G.jpg'
+                ],
+                [
+                    'https://ae01.alicdn.com/kf/H4f9e0a955d4f42848e1de9ace0c7f26aP.jpg',
+                    'https://ae01.alicdn.com/kf/Hc8fe4e30d61b49ca91498941790175e6g.jpg',
+                    'https://ae01.alicdn.com/kf/H03d2e0f1559949998e45c2e7d4c77088o.jpg',
+                    'https://ae01.alicdn.com/kf/H8839dc5a24b84485bddc7dac556058b48.jpg',
+                    'https://ae01.alicdn.com/kf/H216bafc17ef5448db35fea7ee42421542.jpg',
+                    'https://ae01.alicdn.com/kf/H5e26d022d86f4831bb6c7510e6b539fex.jpg',
+                    'https://ae01.alicdn.com/kf/H28a817cbba764bee82a875fee68d341eP.jpg',
+                    'https://ae01.alicdn.com/kf/H964b11a1c40144bba9a65b553b80da0bV.jpg',
+                    'https://ae01.alicdn.com/kf/H9bf41e542ebb401c97f98c8ec38e6ddf7.jpg'
+                ],
+                [
+                    'https://ae01.alicdn.com/kf/H6785d43f100047cc98ac1ef9d74039a2V.jpg',
+                    'https://ae01.alicdn.com/kf/H5da843d9dceb4b99956315558159ef59g.jpg',
+                    'https://ae01.alicdn.com/kf/H94d36b038f4d4c8391d41b2a3cc5f146l.jpg',
+                    'https://ae01.alicdn.com/kf/H4c61733db72c40baadb3449548aa8f92D.jpg',
+                    'https://ae01.alicdn.com/kf/H9cc404f575c64dc1ae1d383a6e5cb855T.jpg',
+                    'https://ae01.alicdn.com/kf/H2f88ad4286bf44c39594813b644b6c33D.jpg',
+                    'https://ae01.alicdn.com/kf/H65c728caaa5b44c788f0fb2c18056f82k.jpg',
+                    'https://ae01.alicdn.com/kf/H17962cbc23c14f89ad61b1289ff6e269r.jpg',
+                    'https://ae01.alicdn.com/kf/Hb05a60fb00864ee48ff026e68e3a7b2fO.jpg'
+                ],
+                [
+                    'https://ae01.alicdn.com/kf/H3d1c50184224443abadcdd49acd1abafN.jpg',
+                    'https://ae01.alicdn.com/kf/Hedbbaeed72dd4bd6b5122cded66ca960w.jpg',
+                    'https://ae01.alicdn.com/kf/He5453f9130d847ac910c535a21084c91S.jpg',
+                    'https://ae01.alicdn.com/kf/H49ae711315024f9f8202a86410ec50415.jpg',
+                    'https://ae01.alicdn.com/kf/H2aa12a12f34842b89948ac67eafca644F.jpg',
+                    'https://ae01.alicdn.com/kf/H2487168476074593adcc6ae0ba07a4391.jpg',
+                    'https://ae01.alicdn.com/kf/Hdcf05a657d81446aaa0360df5c042a9et.jpg',
+                    'https://ae01.alicdn.com/kf/H34deafa2fae54f789cc54230b1e22f6cu.jpg',
+                    'https://ae01.alicdn.com/kf/H4be1eeb77f6d4a4fb32eb920a9ee3683o.jpg'
+                ],
+                [
+                    'https://ae01.alicdn.com/kf/H99e3c1417e344305b897fd22e38083008.jpg',
+                    'https://ae01.alicdn.com/kf/H0db895459eaa43cba6e0bdc12c170a3df.jpg',
+                    'https://ae01.alicdn.com/kf/H9f3b7ea7657649b4a6f0d9927a54a38e6.jpg',
+                    'https://ae01.alicdn.com/kf/H337baf70d9c448a2b38d6d9ab09506edT.jpg',
+                    'https://ae01.alicdn.com/kf/H8505593374124b4bab23cab861f444432.jpg',
+                    'https://ae01.alicdn.com/kf/H6baa51fca8904e20a4e42623c735d38dT.jpg',
+                    'https://ae01.alicdn.com/kf/H597ea3882aef45deac048f7477c6076fn.jpg',
+                    'https://ae01.alicdn.com/kf/Hbfb97b91740e4636b4c15b7d929b0d2eH.jpg',
+                    'https://ae01.alicdn.com/kf/H01aa8afe5f0e4193b92d387710ab8d85e.jpg'
+                ],
+                [
+                    'https://ae01.alicdn.com/kf/Ha2874bd7a61b464bb0776de926ed52a1e.jpg',
+                    'https://ae01.alicdn.com/kf/H2ff912c1ccc84b41acb1c9f6ca270352w.jpg',
+                    'https://ae01.alicdn.com/kf/Hda7f8f739aa24fa997d491e90ae1d2cfL.jpg',
+                    'https://ae01.alicdn.com/kf/H5fcb8cb90db145b3aae4d240b99d3f8di.jpg',
+                    'https://ae01.alicdn.com/kf/H0efb8ae8bd664ed9969e435a6acf78a52.jpg',
+                    'https://ae01.alicdn.com/kf/H16f0031986544639952d0616238d0104f.jpg',
+                    'https://ae01.alicdn.com/kf/H235ded1f6bb64251bfea9679575da660b.jpg',
+                    'https://ae01.alicdn.com/kf/H0ff36461677342bc9deacfbd195f6aabX.jpg',
+                    'https://ae01.alicdn.com/kf/H7262dd29db364e1196033f5e4efc1f83z.jpg'
+                ]
             ]
         },
         info: {
@@ -630,7 +690,8 @@ $(function () {
     function picRefresh(i) {
         $('.cultureBody').empty();
         $.each(data.picture.brand[i], function (i, e) {
-            $('.cultureBody').append($("<li><img src='upload/" + e + ".png'></li>"))
+            $('.cultureBody').append($("<li><img src='" + e + "'></li>"))
+            // $('.cultureBody').append($("<li><img src='upload/" + e + ".png'></li>"))
         });
     }
 
@@ -702,7 +763,7 @@ $(function () {
         $('.tips').show();
         //倒计时读秒
         let n = 6;
-        let t = setInterval(function () {
+        var t = setInterval(function () {
             n--;
             $('.tips p').text(n + '秒后关闭');
         }, 1000);
